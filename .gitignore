@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# MAI - AI Engineering Mentor
+# Project-Specific Exclusions
+# ==========================================
+
+# Environment files and local secrets
+.env.*
+!.env.example
+
+# IDE and editor configuration
+.vscode/
+.idea/
+
+# Local application databases and persistent memory
+*.db
+*.sqlite
+*.sqlite3
+
+# Application logs
+logs/
+
+# Local AI model weights
+*.gguf
+*.safetensors
+*.bin
