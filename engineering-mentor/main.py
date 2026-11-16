@@ -1,5 +1,5 @@
-from llm import generate_response
+from mentor import ask_mentor
 
-# response = generate_response("Explain what a REST API is in two sentences.")
+response = ask_mentor("How do I reverse a linked list?")
 
-# print(response)
+print(response)
